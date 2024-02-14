@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 function Button({
   children,
@@ -15,4 +15,14 @@ function Button({
   )
 };
 
-export default Button
+export default memo(Button)
+// useEffect 3 way execute
+// useMemo vs useCallback
+// useEffect vs useLayoutEffect
+// useReducer
+// useState
+// debounce
+// memo
+// useContext
+// formik , yup validation
+

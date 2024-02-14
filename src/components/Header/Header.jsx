@@ -35,7 +35,7 @@ function Header() {
       active: authStatus,
     },
   ]
-  console.log(authStatus)
+  // console.log(authStatus)
   return (
     <header className='py-3 shadow bg-gray-500'>
       <Container>
